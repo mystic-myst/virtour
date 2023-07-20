@@ -53,14 +53,14 @@ var APP_DATA = {
           "yaw": -2.3082405385809963,
           "pitch": -0.292140749826757,
           "title": "Johanna Kempe",
-          "picture": "/pics/wil_mom.jpg",
+          "picture": 'pics/wil_mom.jpg',
           "text": "Portrait of Wilhelmina von Hallwyl´s mother."
         },
         {
           "yaw": -1.5077429991391185,
           "pitch": -0.4496585759404823,
           "title": "Wilhelm Kempe",
-          "picture": "/pics/wil_dad.jpg",
+          "picture": 'pics/wil_dad.jpg',
           "text": "Portrait of Wilhelmina von Hallwyl´s father. Wilhelmina’s parents are \nthe only members of the Kempe family represented in the portrait \ngallery."
         }
       ]
@@ -238,14 +238,14 @@ var APP_DATA = {
           "yaw": 0.4815961345392683,
           "pitch": -0.38213159886919,
           "title": "Ebba von Eckerman",
-          "picture": "/pics/ebba.png",
+          "picture": 'pics/ebba.png',
           "text": "<p>The oldest of the Hallwyl daughters, painted by Julius Kronberg in 1895.</p>\n<p><br></p><p>Ebba was politically involved in the Fredrika Bremer Association and \nthe Moderate Women’s League of Sweden, and was active in the women’s \nsuffrage movement.</p>"
         },
         {
           "yaw": -1.5407013730778178,
           "pitch": -0.4394925245302126,
           "title": "Walther von Hallwyl",
-          "picture": "/pics/walt.png",
+          "picture": 'pics/walt.png',
           "text": "This portrait of Walther was painted in 1904 by Julius Kronberg."
         },
         {
@@ -309,7 +309,7 @@ var APP_DATA = {
           "yaw": 0.012545777648107048,
           "pitch": -0.8886399231566688,
           "title": "“Prometheus Brings Fire To Mankind”",
-          "picture": "/pics/marble2.png",
+          "picture": 'pics/marble2.png',
           "text": "This relief over the mantelpiece in Carrara marble was made by the sculptor <a rel=\"nofollow noopener noreferrer\" target=\"_blank\" href=\"https://goo.gl/msvPGZ\">Gusten Lindberg</a>."
         },
         {
@@ -397,7 +397,7 @@ var APP_DATA = {
           "yaw": 0.4657218927485829,
           "pitch": -0.3423726391236137,
           "title": "Wilhelmina von Hallwyl",
-          "picture": "/pics/wil.png",
+          "picture": 'pics/wil.png',
           "text": "<div class=\"description markdown-rendered-content inversed\"><p><a rel=\"nofollow noopener noreferrer\" target=\"_blank\" href=\"https://goo.gl/EQeqXF\">Wilhelmina von Hallwyl</a>, portrayed by Julius Kronberg in 1895.</p>\n<p><br></p><p>It is an unusual depiction of a high society woman. No emphasis has \nbeen put on her clothes, which was otherwise used to signal the \nfinancial status of a family. She looks at the observer with an alert \ngaze and she has settled in a relaxed pose.</p></div>"
         }
       ]
