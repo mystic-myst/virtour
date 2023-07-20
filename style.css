@@ -642,6 +642,14 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
               visibility 0s 0s;
 }
 
+.info-hotspot-picture {
+  position: absolute;
+  top: 0;
+  right: 100%; /* Adjust the left position to push it to the right */
+  width: 115%;
+}
+
+
 /* Info hotspot modal */
 
 .desktop .info-hotspot-modal {

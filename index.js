@@ -329,9 +329,20 @@
     text.classList.add('info-hotspot-text');
     text.innerHTML = hotspot.text;
 
-    // Place header and text into wrapper element.
+    
+    // Create picture element.
+    console.log(hotspot.picture); 
+    if (hotspot.picture !== undefined){
+    var picture = document.createElement('img');
+    picture.classList.add('info-hotspot-picture');
+    picture.src = hotspot.picture;
+    } 
+    
+    // Place header, text and picture into wrapper element.
     wrapper.appendChild(header);
     wrapper.appendChild(text);
+    if (hotspot.picture !== undefined)
+    wrapper.appendChild(picture);
 
     // Create a modal for the hotspot content to appear on mobile mode.
     var modal = document.createElement('div');
@@ -342,7 +353,13 @@
     var toggle = function() {
       wrapper.classList.toggle('visible');
       modal.classList.toggle('visible');
+      if (hotspot.picture !== undefined)
+        picture.style.display = picture.style.display === 'none' ? 'block' : 'none';
     };
+
+    // Hide the picture initially
+    if (hotspot.picture !== undefined) 
+      picture.style.display = 'none';
 
     // Show content when hotspot is clicked.
     wrapper.querySelector('.info-hotspot-header').addEventListener('click', toggle);
